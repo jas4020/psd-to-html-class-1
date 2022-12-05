@@ -1,0 +1,59 @@
+/*main css start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'open sans' , sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*common css end*/
+
+/*nav section css end*/
+nav{
+    background-color:  #02918b;
+    text-align: justify;
+}
+nav div .row{
+    align-items: center;
+}
+nav .logo{
+    width: 15%;
+}
+nav .menu{
+    width: 75%;
+}
+nav .menu ul{
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: .05s;
+}
+nav .menu ul li a:hover,
+nav .menu ul li a.active{
+    color: black;
+    background: yellow;
+}
